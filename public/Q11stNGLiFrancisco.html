@@ -1,21 +1,79 @@
+<body>
+<h1>Feed Me My Snacks</h1>
+<label>Enter your age
+    <input id="age"/>
+</label></br/>
+
+<label> Enter your Max age
+    <input id="maxAge" />
+</label></br/>
+
+</label> Enter number of snacks daily
+    <input id="snacks"/>
+</label></br/>
+<p> Result :
+    <span id="resultHere"></span>
+</p>
+<button onclick="resultsHere()"> Results </button> </p>
+
 <script>
 
-let age = window.prompt("Enter your age : ", 14);
-let maxAge =window.prompt("You will live until the ripe old age of: ", 100 );
-let numPerDay = window.prompt("Number of Snacks Daily: ", 2);
-
-let sure = confirm("Sure of your number?")
-if (sure){
-    let totalRequired = (Number(numPerDay* 365) * ( Number(maxAge) -Number(age)));
-document.write("You will need "+ totalRequired + " snacks to last you until the ripe old age of" +maxAge)
+    function results(){
 
 
-}
-else{
-    window.alert("Please run this program again");
+
+        let dInput = document.getElementById("resultsHere").value;
+        let snacks = document.getElementById("snacks").innerHTML = `<b> ${dInput} </b>`
+        let age = document.getElementById("age").innerHTML = `<b> ${dInput} </b>`
+        let maxAge = document.getElementById("maxAge").innerHTML = `<b> ${dInput} </b>`
+        let totalRequired = (Number(snacks* 365) * ( Number(maxAge) -Number(age)));
+        document.write("You will need "+ totalRequired + " snacks to last you until the ripe old age of" +maxAge)
+    }
 
 
-}
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+//let age = window.prompt("Enter your age : ", 14);
+//let maxAge =window.prompt("You will live until the ripe old age of: ", 100 );
+//let numPerDay = window.prompt("Number of Snacks Daily: ", 2);
+
+//let sure = confirm("Sure of your number?")
+//if (sure){
+    //let totalRequired = (Number(numPerDay* 365) * ( Number(maxAge) -Number(age)));
+//document.write("You will need "+ totalRequired + " snacks to last you until the ripe old age of" +maxAge)
+
+
+//}
+//else{
+    //window.alert("Please run this program again");
+
+
+//}
 
 
 </script>
