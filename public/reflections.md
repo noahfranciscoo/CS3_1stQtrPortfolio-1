@@ -49,7 +49,7 @@ a
 ## 4. In the activities that were done in class, list at least two that you think were effective and at least two that you think were not effective in helping you understand topics in our course and why.
 1. **Effective Activities**  
    - The coding exercises  were very effective. They gave me hands-on experience and helped me apply the lessons immediately.  
-   - The examples you gave during class were actually really helpful, as it explained a lot of my questions about any topic.
+   - The examples you gave during class were actually really helpful, as it explained a lot of my questions about any topic
 
 2. **Not Effective Activities**  
    - Long lectures without coding practice were less effective. Sometimes I understood the concept during class but forgot it quickly without exercises.  
